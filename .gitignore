@@ -1,0 +1,9 @@
+node_modules
+.idea
+dist
+.temp
+temp
+/coverage
+.DS_Store
+.vite_opt_cache
+cache
