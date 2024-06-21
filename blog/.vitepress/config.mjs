@@ -31,6 +31,7 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://adambailey.io'
   },
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/assets/img/logo.svg',

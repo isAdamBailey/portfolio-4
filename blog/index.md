@@ -5,7 +5,6 @@ layout: home
 hero:
   name: "Adam Bailey"
   text: "A personal web portfolio and blog"
-  tagline: My great project tagline
 ---
 
 <script setup>
