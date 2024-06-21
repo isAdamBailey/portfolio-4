@@ -40,7 +40,13 @@ export default defineConfig({
         text: 'Articles',
         items: [
           { text: 'Accessible SVGs', link: '/blog/accessible-svgs' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Dockerize a Laravel Application', link: '/blog/dockerize-a-laravel-application' },
+          { text: 'Generators in PHP', link: '/blog/generators-in-php' },
+          { text: 'Jetstream Search Input', link: '/blog/jetstream-search-input' },
+          { text: 'Create GitHub Repo on a New Laravel Project', link: '/blog/laravel-new-github-repo' },
+          { text: 'Simple Vue.js and Tailwind.css Scroll To Top Button', link: '/blog/scroll-to-top-button-vue' },
+          { text: 'VueJs Search Input With SpeechRecognition API', link: '/blog/vue-search-input-speech-recognition' },
+          { text: 'Sensory Processing Disorder', link: '/blog/sensory-processing-disorder' },
         ]
       }
     ],
