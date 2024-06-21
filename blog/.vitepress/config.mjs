@@ -1,22 +1,31 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  head: [
-    ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-D7EXNLPQCF' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
+const inProd = process.env.NODE_ENV === 'production'
+
+const head = [
+  ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
+]
+
+if (inProd) {
+  head.push(
+      [
+        'script',
+        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-D7EXNLPQCF' }
+      ],
+      [
+        'script',
+        {},
+        `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-D7EXNLPQCF');`
-    ]
-  ],
+      ]
+  )
+}
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  head,
   title: "Adam Bailey",
   description: "A personal web portfolio for Adam Bailey",
   sitemap: {
@@ -48,13 +57,6 @@ export default defineConfig({
     },
     footer: {
       copyright: 'Copyright © 2024-present Adam Bailey'
-    },
-    lastUpdated: {
-      text: 'Updated at',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
     },
     editLink: {
       pattern: 'https://github.com/isAdamBailey/portfolio-4/edit/main/blog/:path',
