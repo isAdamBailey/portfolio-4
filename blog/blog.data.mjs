@@ -5,8 +5,8 @@ export default createContentLoader('blog/*.md', {
         return rawData.sort((a, b) => {
             return +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
         }).filter((page) => {
-            // Only include pages that have a title
-            return page.frontmatter.title
+            // Only include featured blog posts
+            return page.frontmatter.featured
         }).map((page) => {
             return {
                 page,

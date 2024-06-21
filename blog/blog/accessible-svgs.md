@@ -1,7 +1,8 @@
 ---
 title: Accessible SVGs
 description: How to make sure screen readers process your SVG image.
-date: 2021-11-09
+date: 2023-11-09
+featured: true
 ---
 # Accessible SVGs
 
