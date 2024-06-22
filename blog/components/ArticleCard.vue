@@ -28,7 +28,7 @@ const date = computed(() => new Date(props.frontmatter.date).toLocaleDateString(
 </script>
 
 <style scoped>
-a {
+.vp-doc a {
   text-decoration: none;
 }
 .card {
