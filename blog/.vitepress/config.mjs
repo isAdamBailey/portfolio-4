@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 const inProd = process.env.NODE_ENV === 'production'
 
 const head = [
-  ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
+  ['link', { rel: 'icon', href: '/favicon.ico' }]
 ]
 
 if (inProd) {
@@ -35,7 +35,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/img/logo.svg',
+    logo: '/logo.svg',
     sidebar: [
       {
         text: 'Articles',
