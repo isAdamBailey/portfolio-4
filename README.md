@@ -8,4 +8,4 @@ This application is built with [VitePress](https://vitepress.dev/), a vue powere
 ### Deployment
 `npm run blog:build`
 
-point to `blog/.vuepress/dist` in your web server
+point to `blog/.vitepress/dist` in your web server
