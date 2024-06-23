@@ -1,9 +1,9 @@
 <template>
   <a :href="href">
     <article class="card">
-      <div class="details">
+      <div>
         <h2 class="title">{{ frontmatter.title }}</h2>
-        <p>{{ frontmatter.description }}</p>
+        <p class="details">{{ frontmatter.description }}</p>
       </div>
       <p class="date">{{ date }}</p>
     </article>
@@ -30,30 +30,44 @@ const date = computed(() => new Date(props.frontmatter.date).toLocaleDateString(
 <style scoped>
 .vp-doc a {
   text-decoration: none;
+  color: var(--vp-c-text-1);
 }
+
 .card {
   display: flex;
-  background-color: var(--vp-c-gray-soft);
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-soft);
   justify-content: space-between;
-  border-radius: 0.5rem;
+  border-radius: 12px;
   margin-bottom: 1.5rem;
   width: 100%;
+  transition: border-color 0.25s, background-color 0.25s;
 }
 
 .card:hover {
   background-color: var(--vp-c-bg-soft);
+  border: solid 1px var(--vp-c-brand-1);
 }
 
 .details {
   margin-left: 1.2rem;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
 }
 
 .title {
   border-top: none;
-  margin: 0 0;
+  margin: 0 1.2rem;
 }
 
 .date {
   margin-right: 1.2rem;
+  font-size: 14px;
+}
+
+@media (max-width: 960px) {
+  .title {
+    font-size: 16px;
+  }
 }
 </style>
