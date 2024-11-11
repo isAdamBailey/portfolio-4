@@ -58,7 +58,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/isAdamBailey' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/adambailey2' },
-      { icon: 'x', link: 'https://x.com/isAdamBailey' },
     ],
     search: {
       provider: 'local'
