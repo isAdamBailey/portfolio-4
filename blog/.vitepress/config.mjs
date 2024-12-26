@@ -40,6 +40,7 @@ export default defineConfig({
       {
         text: 'Articles',
         items: [
+          { text: 'InertiaJs Deferred Data', link: '/blog/inertia-deferred-data' },
           { text: 'Accessible SVGs', link: '/blog/accessible-svgs' },
           { text: 'Dockerize a Laravel Application', link: '/blog/dockerize-a-laravel-application' },
           { text: 'Generators in PHP', link: '/blog/generators-in-php' },
