@@ -11,9 +11,6 @@ features:
   - link: https://hansen.familytribute.org/
     title: Family History Website
     details: I built a website to honor my family's history, and to share the stories and photos of my ancestors.
-  - title: Covid-19 Information By County
-    link: https://covid.adambailey.io/
-    details: I built this site during the pandemic to track COVID data by county compared to state. You can search for your own county and see the latest data.
   - link: https://www.discogs.com/user/new_username_adam/collection?sort=medianvalue&sort_order=desc
     title: Record Collection
     details: I have been collecting records since the mid-nineties, and I cataloged all of them into Discogs. You're welcome to check them out! 
