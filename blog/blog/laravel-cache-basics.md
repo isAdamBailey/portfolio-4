@@ -44,7 +44,7 @@ Users see something right away, and the next request gets fresh data. Pair this 
 
 Out of the box, Laravel will default to the `file` driver. For local dev, that's fine. For production, use Redis.
 
-```env
+```txt
 CACHE_DRIVER=redis
 REDIS_HOST=127.0.0.1
 REDIS_PASSWORD=null
