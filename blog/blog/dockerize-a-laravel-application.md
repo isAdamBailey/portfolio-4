@@ -1,7 +1,8 @@
 ---
-title: Dockerize A Laravel Application
+title: "Dockerize a Laravel App with Nginx, PHP‑FPM, and MySQL"
 date: 2023-08-20
-description: What I did to serve a laravel application with docker containers.
+description: "Set up Laravel with Docker Compose: PHP‑FPM, Nginx, MySQL, and Node. Copy‑paste configs and commands for a reliable local dev stack."
+image: /logo-og.png
 featured: true
 ---
 # Dockerize A Laravel Application

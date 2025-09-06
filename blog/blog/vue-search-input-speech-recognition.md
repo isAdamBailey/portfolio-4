@@ -1,7 +1,8 @@
 ---
-title: VueJs Search Input With SpeechRecognition API
+title: "Vue Search Input with the Web SpeechRecognition API"
 date: 2024-2-25
-description: A search input for VueJs and Tailwind that uses the SpeechRecognition API.
+description: "Add click‑to‑speak voice search to a Vue input using the Web Speech API, with debouncing and visual listening states."
+image: /logo-og.png
 featured: true
 ---
 

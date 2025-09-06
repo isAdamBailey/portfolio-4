@@ -1,6 +1,7 @@
 ---
-title: InertiaJs Deferred Data
-description: Lazy loading data in Vue with InertiaJs and Laravel.
+title: "Inertia.js Deferred Data: Faster Dashboards in Laravel + Vue"
+description: "Speed up admin dashboards using Inertia’s deferred data, caching, and eager loading. Code samples for controllers and Vue components."
+image: /logo-og.png
 date: 2024-12-26
 featured: true
 ---

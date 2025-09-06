@@ -1,7 +1,8 @@
 ---
-title: Simple Vue.js and Tailwind.css Scroll To Top Button
+title: "Vue + Tailwind Scroll‑to‑Top Button (Simple, Accessible)"
 date: 2024-01-06
-description: A simple scroll to top button made with Vue.js and Tailwind.css.
+description: "Add a sticky, accessible scroll‑to‑top button in Vue with Tailwind. Includes listeners, smooth scroll, and optional debounce."
+image: /logo-og.png
 featured: true
 ---
 # Simple Vue.js and Tailwind.css Scroll To Top Button

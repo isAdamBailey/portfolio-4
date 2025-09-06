@@ -1,7 +1,8 @@
 ---
-title: Consecutively Running a Single PHPUnit test
+title: "Run a PHPUnit Test Multiple Times and Log the Results"
 date: 2022-07-25
-description: How to run a PHPUnit test multiple times, and log results.
+description: "Loop a single PHPUnit test 100+ times from the shell and capture flaky failures into a log file for triage."
+image: /logo-og.png
 featured: true
 ---
 # Consecutively Running a Single PHPUnit test

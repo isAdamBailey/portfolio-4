@@ -31,6 +31,52 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://adambailey.io'
   },
+  lastUpdated: true,
+  titleTemplate: ':title | Adam Bailey',
+  transformPageData(pageData) {
+    pageData.frontmatter.head ??= []
+
+    const baseUrl = 'https://adambailey.io'
+    const path = '/' + pageData.relativePath.replace(/(index)?\.md$/, '')
+    const url = path === '//' ? baseUrl + '/' : baseUrl + path
+
+    const pageTitle = pageData.title || 'Adam Bailey'
+    const pageDescription = pageData.description || 'A personal web portfolio for Adam Bailey'
+
+    const explicitImage = pageData.frontmatter.image || pageData.frontmatter.ogImage
+    const resolvedExplicitImage = explicitImage
+      ? (explicitImage.startsWith('http') ? explicitImage : baseUrl + explicitImage)
+      : null
+    const ogImage = resolvedExplicitImage || (baseUrl + '/logo-og.png')
+
+    pageData.frontmatter.head.push(
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:title', content: pageTitle }],
+      ['meta', { property: 'og:description', content: pageDescription }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:image', content: ogImage }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:title', content: pageTitle }],
+      ['meta', { name: 'twitter:description', content: pageDescription }],
+      ['meta', { name: 'twitter:image', content: ogImage }],
+      [
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: 'Adam Bailey',
+          url: baseUrl,
+          sameAs: [
+            'https://github.com/isAdamBailey',
+            'https://www.linkedin.com/in/adambailey2',
+            'https://bsky.app/profile/adambailey.io'
+          ]
+        })
+      ]
+    )
+  },
   cleanUrls: true,
   ignoreDeadLinks: true,
   themeConfig: {

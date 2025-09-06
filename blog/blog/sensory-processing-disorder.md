@@ -1,7 +1,8 @@
 ---
-title: Sensory Processing Disorder
+title: "Living With Sensory Processing Disorder (Personal Story)"
 date: 2021-10-01
-description: How Sensory Processing Disorder affects my life.
+description: "How SPD shapes my daily life as an autistic adult—triggers, coping strategies, work and family challenges, and what truly helps."
+image: /logo-og.png
 ---
 # Sensory Processing Disorder
 How Sensory Processing Disorder affects my life.

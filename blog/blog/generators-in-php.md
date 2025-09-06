@@ -1,7 +1,8 @@
 ---
-title: Generators In PHP
+title: "PHP Generators: Iterate Large Datasets Without Memory Spikes"
 date: 2022-08-10
-description: Get up and running with generators in PHP.
+description: "Learn yield and generator functions to process millions of records efficiently, with clear PHP and Laravel‑style examples."
+image: /logo-og.png
 ---
 
 # Generators In PHP

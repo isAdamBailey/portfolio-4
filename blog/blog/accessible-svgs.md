@@ -1,6 +1,7 @@
 ---
-title: Accessible SVGs
-description: How to make sure screen readers process your SVG image.
+title: "Accessible SVGs: Roles, Alt Text, title and desc"
+description: "Make SVGs accessible with roles, alt text, and title/desc. Learn when to use each and how to verify with browser accessibility tools."
+image: /logo-og.png
 date: 2023-11-09
 featured: true
 ---

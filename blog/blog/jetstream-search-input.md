@@ -1,7 +1,8 @@
 ---
-title: Laravel Jetstream Search Input
+title: "Laravel Jetstream + Inertia: Debounced Search Input in Vue"
 date: 2023-12-28
-description: A simple search input for Laravel Jetstream and Inertia.
+description: "Build a reusable, debounced search input for Jetstream/Inertia. Includes routes, controller query, and Vue component wiring."
+image: /logo-og.png
 featured: true
 ---
 # Laravel Jetstream Search Input
