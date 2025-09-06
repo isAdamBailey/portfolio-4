@@ -91,6 +91,7 @@ export default defineConfig({
           { text: 'Dockerize a Laravel Application', link: '/blog/dockerize-a-laravel-application' },
           { text: 'Generators in PHP', link: '/blog/generators-in-php' },
           { text: 'Jetstream Search Input', link: '/blog/jetstream-search-input' },
+          { text: 'Laravel Caching Basics', link: '/blog/laravel-cache-basics' },
           { text: 'Create GitHub Repo on a New Laravel Project', link: '/blog/laravel-new-github-repo' },
           { text: 'Simple Vue.js and Tailwind.css Scroll To Top Button', link: '/blog/scroll-to-top-button-vue' },
           { text: 'VueJs Search Input With SpeechRecognition API', link: '/blog/vue-search-input-speech-recognition' },
