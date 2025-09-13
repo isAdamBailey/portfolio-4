@@ -86,12 +86,13 @@ export default defineConfig({
       {
         text: 'Articles',
         items: [
+          { text: 'AI Dev Toil', link: '/blog/ai-dev-toil-7-prompts' },
+          { text: 'Laravel Caching Basics', link: '/blog/laravel-cache-basics' },
           { text: 'InertiaJs Deferred Data', link: '/blog/inertia-deferred-data' },
           { text: 'Accessible SVGs', link: '/blog/accessible-svgs' },
           { text: 'Dockerize a Laravel Application', link: '/blog/dockerize-a-laravel-application' },
           { text: 'Generators in PHP', link: '/blog/generators-in-php' },
           { text: 'Jetstream Search Input', link: '/blog/jetstream-search-input' },
-          { text: 'Laravel Caching Basics', link: '/blog/laravel-cache-basics' },
           { text: 'Create GitHub Repo on a New Laravel Project', link: '/blog/laravel-new-github-repo' },
           { text: 'Simple Vue.js and Tailwind.css Scroll To Top Button', link: '/blog/scroll-to-top-button-vue' },
           { text: 'VueJs Search Input With SpeechRecognition API', link: '/blog/vue-search-input-speech-recognition' },

@@ -1,6 +1,6 @@
 ---
 title: "Laravel Caching: Cache Facade, Drivers, and Redis"
-date: 2025-09-06
+date: 2025-04-06
 description: "Practical Laravel caching with the Cache facade, tags, TTLs, and Redis. Copy‑paste snippets to speed up your app."
 image: /logo-og.png
 featured: true

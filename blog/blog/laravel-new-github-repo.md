@@ -4,7 +4,6 @@ date: 2021-10-31
 description: "Use the Laravel installer with --github and GitHub CLI to initialize a repo, set main as the branch, and choose visibility automatically."
 image: /logo-og.png
 categories: [laravel, configuration]
-featured: true
 ---
 # Create GitHub Repo on a New Laravel Project
 This year, Laravel added a new feature to easily create a new git repository when creating a new project.
