@@ -86,6 +86,7 @@ export default defineConfig({
       {
         text: 'Articles',
         items: [
+          { text: 'How to Use the YouTube Data API in Laravel', link: '/blog/youtube-data-api-sync' },
           { text: 'AI Dev Toil', link: '/blog/ai-dev-toil-7-prompts' },
           { text: 'Laravel Caching Basics', link: '/blog/laravel-cache-basics' },
           { text: 'InertiaJs Deferred Data', link: '/blog/inertia-deferred-data' },
