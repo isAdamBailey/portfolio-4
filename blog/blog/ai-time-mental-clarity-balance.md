@@ -13,7 +13,7 @@ AI saves me time, but time is not the prize. The prize is a calmer brain, cleane
 
 I use AI for short, specific tasks, not open-ended thinking. The goal is to compress friction, not replace judgment.
 
-- Drafting first pass summaries for PRs and tickets
+- Drafting first pass descriptions for stakeholders and PRs
 - Turning rough notes into a clear outline
 - Generating test scaffolds I still review and edit
 - Summarizing long logs or diffs into a short list
