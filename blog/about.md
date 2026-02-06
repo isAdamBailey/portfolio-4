@@ -11,6 +11,9 @@ features:
   - link: https://hansen.familytribute.org/
     title: Family History Website
     details: I built a website to honor my family's history, and to share the stories and photos of my ancestors.
+  - link: https://cockroach.adambailey.io
+    title: Cockroach Hiss
+    details: A fun browser game—tap a Madagascar hissing cockroach to make it hiss and guide it to the toilet for a glorious victory. Built with Vue 3 and Vite.
   - link: https://www.discogs.com/user/new_username_adam/collection?sort=medianvalue&sort_order=desc
     title: Record Collection
     details: I have been collecting records since the mid-nineties, and I cataloged all of them into Discogs. You're welcome to check them out! 
