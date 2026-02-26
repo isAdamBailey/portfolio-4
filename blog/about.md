@@ -14,9 +14,9 @@ features:
   - link: https://cockroach.adambailey.io
     title: Cockroach Hiss
     details: A fun browser game—tap a Madagascar hissing cockroach to make it hiss and guide it to the toilet for a glorious victory. Built with Vue 3 and Vite.
-  - link: https://www.discogs.com/user/new_username_adam/collection?sort=medianvalue&sort_order=desc
-    title: Record Collection
-    details: I have been collecting records since the mid-nineties, and I cataloged all of them into Discogs. You're welcome to check them out! 
+  - link: https://records.adambailey.io
+    title: Black Circles
+    details: Built with Laravel and Vue—my vinyl collection synced from the Discogs API, with the ability to pick a record based on your mood. 
   - title: SoundCloud
     link: https://soundcloud.com/owlsayshoo/tracks
     details: I spent a few years making strange music on some cheap equipment and saved some of them here.
