@@ -16,7 +16,7 @@ features:
     details: A fun browser game—tap a Madagascar hissing cockroach to make it hiss and guide it to the toilet for a glorious victory. Built with Vue 3 and Vite.
   - link: https://records.adambailey.io
     title: Black Circles
-    details: Built with Laravel and Vue—my vinyl collection synced from the Discogs API, with the ability to pick a record based on your mood. 
+    details: Built with Laravel and Vue—my vinyl collection synced from the Discogs API. Uses AI to determine what album you might want based on your mood. 
   - title: SoundCloud
     link: https://soundcloud.com/owlsayshoo/tracks
     details: I spent a few years making strange music on some cheap equipment and saved some of them here.
