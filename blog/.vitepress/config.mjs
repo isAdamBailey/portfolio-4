@@ -86,6 +86,7 @@ export default defineConfig({
       {
         text: 'Articles',
         items: [
+          { text: 'Using Claude Hooks to Run Lint and Tests Before Pushing Code', link: '/blog/claude-hooks-lint-tests' },
           { text: 'How to Use the YouTube Data API in Laravel', link: '/blog/youtube-data-api-sync' },
           { text: 'AI Dev Toil', link: '/blog/ai-dev-toil-7-prompts' },
           { text: 'AI Time Savings for Mental Clarity', link: '/blog/ai-time-mental-clarity-balance' },
