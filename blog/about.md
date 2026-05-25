@@ -17,6 +17,9 @@ features:
   - link: https://records.adambailey.io
     title: Black Circles
     details: Built with Laravel and Vue—my vinyl collection synced from the Discogs API. Uses AI to determine what album you might want based on your mood. 
+  - link: https://show-tracker.adambailey.io
+    title: Live Music Tracker
+    details: Live Music Tracker is a Nuxt-powered concert discovery app that helps fans find upcoming shows by artist, genre, and city, then dive into historical tour and setlist data for selected acts—all in a fast, dark-themed experience built for real-world planning.
   - title: SoundCloud
     link: https://soundcloud.com/owlsayshoo/tracks
     details: I spent a few years making strange music on some cheap equipment and saved some of them here.
