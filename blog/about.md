@@ -11,15 +11,12 @@ features:
   - link: https://hansen.familytribute.org/
     title: Family History Website
     details: I built a website to honor my family's history, and to share the stories and photos of my ancestors.
-  - link: https://cockroach.adambailey.io
-    title: Cockroach Hiss
-    details: A fun browser game—tap a Madagascar hissing cockroach to make it hiss and guide it to the toilet for a glorious victory. Built with Vue 3 and Vite.
   - link: https://records.adambailey.io
     title: Black Circles
     details: Built with Laravel and Vue—my vinyl collection synced from the Discogs API. Uses AI to determine what album you might want based on your mood. 
   - link: https://show-tracker.adambailey.io
     title: Live Music Tracker
-    details: Live Music Tracker is a Nuxt-powered concert discovery app that helps fans find upcoming shows by artist, genre, and city, then dive into historical tour and setlist data for selected acts—all in a fast, dark-themed experience built for real-world planning.
+    details: Live Music Tracker is a Nuxt-powered concert discovery app that helps fans find upcoming shows by artist, genre, and city, then dive into historical tour and setlist data for selected acts, all in a fast, dark-themed experience built for real-world planning.
   - title: SoundCloud
     link: https://soundcloud.com/owlsayshoo/tracks
     details: I spent a few years making strange music on some cheap equipment and saved some of them here.
