@@ -9,7 +9,7 @@ featured: true
 
 [FrameBeat](https://framebeat.adambailey.io/) is a frame drum and polyrhythmic step sequencer. You can click the drum to play it, or program two step lines and hit play. The bottom line sets the bar, the top line splits that same bar into its own number of steps, and the two always land together on beat one. The code is on [GitHub](https://github.com/isAdamBailey/framebeat).
 
-The first version came out of an AI hackathon, built on base44. That kind of tool is great at one thing: getting something clickable in front of you before you've even decided what the thing is. I clicked around, played the drum, and knew I wanted to keep it.
+The first version came out of an AI hackathon, built on [base44](https://base44.com/). That kind of tool is great at one thing: getting something clickable in front of you before you've even decided what the thing is. I clicked around, played the drum, and knew I wanted to keep it.
 
 So I kept the idea and rewrote it in the stack I know.
 
