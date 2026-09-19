@@ -86,6 +86,7 @@ export default defineConfig({
       {
         text: 'Articles',
         items: [
+          { text: 'FrameBeat: From an AI Hackathon Prototype to Vue and Swift', link: '/blog/framebeat-base44-vue-swift' },
           { text: 'Syncing Weight and Height Data with the Google Health API in Go and Vue', link: '/blog/google-health-go-vue-sync' },
           { text: 'Using Claude Hooks to Run Lint and Tests Before Pushing Code', link: '/blog/claude-hooks-lint-tests' },
           { text: 'How to Use the YouTube Data API in Laravel', link: '/blog/youtube-data-api-sync' },
