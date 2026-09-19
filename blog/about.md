@@ -20,6 +20,9 @@ features:
   - link: https://github.com/isAdamBailey/massa
     title: Massa
     details: Personal weight and BMI tracker featuring Google Health API sync, trend visualization, and secure magic-link authentication. Built with Go, Nuxt 4, and PostgreSQL.
+  - link: https://framebeat.adambailey.io/
+    title: FrameBeat
+    details: A frame drum and polyrhythmic step sequencer for the browser. Built with Vue 3 and TypeScript, all audio synthesized live with the Web Audio API, plus a native SwiftUI version for macOS and iPad.
   - title: SoundCloud
     link: https://soundcloud.com/owlsayshoo/tracks
     details: I spent a few years making strange music on some cheap equipment and saved some of them here.
