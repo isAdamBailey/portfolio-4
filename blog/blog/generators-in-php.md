@@ -29,7 +29,7 @@ users in Laravel using a factory:
 
 ```php
 factory(App\User::class, 1000000)->create();
-```       
+```
 
 You'd run out of memory pretty quick. There are ways we can try to handle this, for instance using `chunk()`, but that
 would still load records into memory, even if the usage has been reduced.
@@ -61,11 +61,11 @@ $users = generateUsers(1000000);
 Now, if you want the first item of this generator, you cannot just do `$users[0]`, because an array won't be returned from the generator, it will be a new object of the internal Generator class.
 
 You might have noticed that none of these users have been persisted yet to the database. However, when you grab the
-first iteration with `$user->current();`, the User gets returned and is persisted to the database. Continue on the iteration with:
+first iteration with `$users->current();`, the User gets returned and is persisted to the database. Continue on the iteration with:
 
 ```php
-$user->next() 
-```    
+$users->next();
+```
 
 Great! Now if we run this generator in a `foreach()`, we'll see them populate the database without anything in memory:
 
