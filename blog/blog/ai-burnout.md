@@ -15,6 +15,8 @@ That might sound strange coming from someone who uses AI every day and writes ab
 
 There's an assumption floating around upper management that AI makes everything instant. You type a prompt, the feature appears, and you're done. No thinking required.
 
+It's not just my company. An [Upwork study](https://upwork.com/research/ai-enhanced-work-models) found that 96% of executives expect AI to boost productivity, while 77% of employees using it say it has actually added to their workload. Almost half of them had no idea how to hit the numbers they were expected to hit. That one made me feel a little less crazy.
+
 That isn't how it goes. AI can write the code fast. It can't tell me what the code should do, or how it fits into a system that has years of decisions baked into it. Somebody still has to figure that part out, and that somebody is me.
 
 So the timelines shrink, and the thinking time shrinks with them. The hard part of the job never got faster. It just got squeezed.
@@ -48,6 +50,8 @@ The problem is that none of this happens in a vacuum. There's an ever increasing
 Each project feels light while I'm doing it. Stacked on top of everything else, it's way more than I should be doing.
 
 AI took away a lot of the friction that used to slow me down. I didn't realize how much that friction was protecting me. When something took a month, I had to pick carefully. Now I can say yes to everything, and I mostly have.
+
+Turns out this is a thing. [Researchers at Berkeley Haas](https://newsroom.haas.berkeley.edu/ai-promised-to-free-up-workers-time-uc-berkeley-haas-researchers-found-the-opposite/) followed about 200 people at a tech company for eight months. Nobody asked them to do more. They just did, because AI made starting something so easy. They took on extra work and filled their breaks and evenings with prompts. Reading that felt a little too familiar.
 
 ## What I'm Trying
 
