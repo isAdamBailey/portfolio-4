@@ -86,6 +86,7 @@ export default defineConfig({
       {
         text: 'Articles',
         items: [
+          { text: 'AI Burnout From Both Ends', link: '/blog/ai-burnout' },
           { text: 'FrameBeat: From an AI Hackathon Prototype to Vue and Swift', link: '/blog/framebeat-base44-vue-swift' },
           { text: 'Syncing Weight and Height Data with the Google Health API in Go and Vue', link: '/blog/google-health-go-vue-sync' },
           { text: 'Using Claude Hooks to Run Lint and Tests Before Pushing Code', link: '/blog/claude-hooks-lint-tests' },
