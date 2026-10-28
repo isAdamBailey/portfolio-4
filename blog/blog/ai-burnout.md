@@ -63,4 +63,6 @@ At home, I'm trying to finish things before starting new ones. And I'm trying to
 
 Some nights the best thing I can build is nothing. I close the laptop and go to bed.
 
+Full disclosure: I wrote this article at 5 am before work. So yeah, perfect example. I'm working on it.
+
 If you're feeling this too, you're not the only one. Take care of yourself out there.
