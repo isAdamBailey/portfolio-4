@@ -1,5 +1,5 @@
 ---
-title: "AI Burnout From Both Ends: Work Expects More, and So Do I"
+title: "AI Burnout From Both Ends: The Industry Expects More, and So Do I"
 date: 2026-10-28
 description: "AI made building feel instant at work and at home. Here's how that turned into burnout for me, and what I'm trying to do about it."
 image: /logo-og.png
@@ -11,25 +11,23 @@ I'm tired. I think a lot of us are, and I think AI has a lot to do with it.
 
 That might sound strange coming from someone who uses AI every day and writes about it here. I like these tools. They've changed how I work. But lately I've noticed the pressure coming at me from two directions at once, and one of them is me.
 
-## The Pressure at Work
+## The Pressure on the Industry
 
-There's an assumption floating around upper management that AI makes everything instant. You type a prompt, the feature appears, and you're done. No thinking required.
+There's an idea floating around the whole software industry right now that AI makes everything instant. You type a prompt, the feature appears, and you're done. No thinking required.
 
-It's not just my company. An [Upwork study](https://upwork.com/research/ai-enhanced-work-models) found that 96% of executives expect AI to boost productivity, while 77% of employees using it say it has actually added to their workload. Almost half of them had no idea how to hit the numbers they were expected to hit. That one made me feel a little less crazy.
+The numbers back up how wide that gap is. An [Upwork study](https://upwork.com/research/ai-enhanced-work-models) found that 96% of executives expect AI to boost productivity, while 77% of employees using it say it has actually added to their workload. Almost half of them had no idea how to hit the numbers they were expected to hit.
 
-That isn't how it goes. AI can write the code fast. It can't tell me what the code should do, or how it fits into a system that has years of decisions baked into it. Somebody still has to figure that part out, and that somebody is me.
+It's an easy idea to believe, because the code part really is fast now. But AI can't tell any of us what the code should do, or how it fits into a system that has years of decisions baked into it. Somebody still has to figure that part out.
 
-So the timelines shrink, and the thinking time shrinks with them. The hard part of the job never got faster. It just got squeezed.
+When everyone assumes the whole job got faster, the thinking time is the first thing to get squeezed. And the thinking was always the hard part.
 
-## The Pressure From Clients
+## Everyone Has a Prototype Now
 
-Then there are the clients. They have AI too. They go have their own conversations with it, and come back with a brand new idea and a design it made for them in about five minutes.
+The other side of it is that everyone has AI now, not just developers. Anyone with an idea can have a conversation with it and come out with a polished looking design in about five minutes.
 
-Sometimes the idea is good! But it changes what we already built. And next week there's another conversation and another design.
+Honestly, that's pretty great. Some of those ideas are really good! But it also means ideas can change as fast as they can be generated, and software can't always keep up with that.
 
-So we build it, then build it again, then redo it. I'll admit that rebuilding is cheap now. A rewrite that used to take a week might take an afternoon.
-
-But cheap is not the same as scalable. Enterprise software has data, users, integrations, and other teams depending on it. Every pivot leaves something behind. A migration, a half-removed feature, a test nobody updated. That stuff piles up, and it doesn't care how fast the code was written.
+Rebuilding is cheap now. A rewrite that used to take a week might take an afternoon. But cheap is not the same as scalable. Enterprise software has data, users, integrations, and other teams depending on it. Every change has to be carried through all of that carefully, and that part doesn't care how fast the code was written.
 
 We still need to know what to build. That's the job. Building the wrong thing quickly is still building the wrong thing.
 
@@ -57,7 +55,7 @@ Turns out this is a thing. [Researchers at Berkeley Haas](https://newsroom.haas.
 
 I don't have this figured out. I'm writing it down partly so I'll actually listen to myself.
 
-At work, I'm trying to push back on the idea that fast code means fast decisions. When a timeline shows up that assumes no thinking, I try to say out loud where the thinking time goes. When a client brings a new AI design, I try to ask what problem it solves before I start rebuilding.
+When I'm building something, I'm trying to remember that fast code doesn't mean fast decisions. I try to say out loud where the thinking time goes, so it doesn't quietly disappear. When a new idea shows up, I try to ask what problem it solves before I start building.
 
 At home, I'm trying to finish things before starting new ones. And I'm trying to remember that the time with my kids is the point. The game world is just the excuse.
 
