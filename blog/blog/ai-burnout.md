@@ -51,9 +51,25 @@ AI took away a lot of the friction that used to slow me down. I didn't realize h
 
 Turns out this is a thing. [Researchers at Berkeley Haas](https://newsroom.haas.berkeley.edu/ai-promised-to-free-up-workers-time-uc-berkeley-haas-researchers-found-the-opposite/) followed about 200 people at a tech company for eight months. Nobody asked them to do more. They just did, because AI made starting something so easy. They took on extra work and filled their breaks and evenings with prompts. Reading that felt a little too familiar.
 
+## I Already Wrote the Advice
+
+Here's the embarrassing part. I've written about this before, and I sounded pretty sure of myself.
+
+In [Seven High-Impact AI Prompts That Cut My Dev Toil](/blog/ai-dev-toil-7-prompts), I timed everything and showed I was saving 25 to 35% of my glue work. I measured the time I got back. I never measured where it went. Looking back, I think most of it went right into building more stuff.
+
+Then in [How I Use AI Time Savings to Regain Mental Clarity](/blog/ai-time-mental-clarity-balance), I wrote that "time saved disappears unless I choose where it goes." I still believe that. I just didn't expect that I would be the one choosing to spend it all on more code.
+
+That same post had a list of rules. One of them was "No AI after my last work block. That time is for decompression." Meanwhile, I'm writing more code at home than I ever have, and almost all of it is with AI. So that one didn't last.
+
+Under "What I Avoid," I listed "Letting faster output become higher expectations." I was thinking about expectations from other people. I didn't think about my own. Every time I built something faster, my idea of a normal amount to build went up with it.
+
+And I ended that post by saying "start with one small rule and protect it for a week." A week is easy. The hard part is month three, when the rule is still there and the fun new project is right in front of you.
+
+I think the mistake was assuming boundaries were only for work. All of my rules were about the job. None of them covered the stuff I build for fun, because it didn't feel like work. It turns out my brain doesn't really care whether the code is for a paycheck or for a game world. It's tired either way.
+
 ## What I'm Trying
 
-I don't have this figured out. I'm writing it down partly so I'll actually listen to myself.
+I don't have this figured out. I'm writing it down partly so I'll actually listen to myself. Again.
 
 When I'm building something, I'm trying to remember that fast code doesn't mean fast decisions. I try to say out loud where the thinking time goes, so it doesn't quietly disappear. When a new idea shows up, I try to ask what problem it solves before I start building.
 
